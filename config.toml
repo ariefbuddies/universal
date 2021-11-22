@@ -270,11 +270,6 @@ name = "Twitter"
 pre = "<i class='fab fa-2x fa-twitter'></i>"
 url = "http://twitter.com"
 weight = 4
-[[menu.topbar]]
-name = "Email"
-pre = "<i class='fas fa-2x fa-envelope'></i>"
-url = "mailto:hello@universal.com"
-weight = 5
 [params]
 about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
 address = "<p class=\"text-uppercase\"><strong>Universal Ltd.</strong>\n        <br>13/25 New Avenue\n        <br>Newtown upon River\n        <br>45Y 73J\n        <br>England\n        <br>\n        <strong>Great Britain</strong>\n      </p>\n      "
