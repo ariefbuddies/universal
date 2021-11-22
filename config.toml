@@ -280,7 +280,7 @@ date_format = "January 2, 2006"
 defaultDescription = "Site template made by devcows using hugo"
 defaultKeywords = ["devcows", "hugo", "go"]
 default_sharing_image = "img/sharing-default.png"
-disabled_logo = false
+disabled_logo = true
 enableGoogleMaps = false
 enableRecaptchaInContactForm = false
 facebook_site = ""
@@ -341,7 +341,7 @@ enable = false
 text = "<p class=\"hidden-sm hidden-xs\">Contact us on +420 777 555 333 or hello@universal.com.</p>\n      <p class=\"hidden-md hidden-lg\"><a href=\"tel:+420 777 555 333\" data-animate-hover=\"pulse\"><i class=\"fas fa-phone\"></i></a>\n      <a href=\"mailto:hello@universal.com\" data-animate-hover=\"pulse\"><i class=\"fas fa-envelope\"></i></a>\n      </p>\n      "
 [params.widgets]
 categories = true
-search = true
+search = false
 tags = true
 [permalinks]
 blog = "/blog/:year/:month/:day/:filename/"
