@@ -276,7 +276,7 @@ address = "<p class=\"text-uppercase\"><strong>Universal Ltd.</strong>\n        
 author = "DevCows"
 contact_form_ajax = false
 contact_url = "/contact"
-copyright = "Copyright (c) 2010 - 2022, YourCompany; all rights reserved."
+copyright = "Bening Abadi di 2022"
 date_format = "January 2, 2006"
 defaultDescription = "Site template made by devcows using hugo"
 defaultKeywords = ["devcows", "hugo", "go"]
