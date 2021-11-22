@@ -1,6 +1,5 @@
 baseurl = "https://suspicious-jones-985cfd.netlify.app/"
 defaultContentLanguage = "en"
-disqusShortname = "devcows"
 googleAnalytics = ""
 languageCode = "en-us"
 paginate = 10
