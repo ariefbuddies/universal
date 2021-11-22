@@ -6,4 +6,4 @@ title = "Penginapan Murah Jogja"
 twitter_author = ""
 
 +++
-Tesssssss
+![](/public/14-56-08-fehe5syaqaapyka.jpg)Tidur nyaman
