@@ -306,12 +306,12 @@ slide_speed = 2000
 auto_play = true
 enable = true
 pagination_speed = 1000
-slide_speed = 2000
+slide_speed = 1000
 [params.carouselTestimonals]
-auto_play = false
+auto_play = true
 items = 4
 pagination_speed = 1000
-slide_speed = 2000
+slide_speed = 1000
 [params.clients]
 enable = true
 subtitle = ""
