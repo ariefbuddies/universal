@@ -136,7 +136,7 @@ parent = "section.marketing"
 weight = 6
 [[menu.main]]
 identifier = "menu.allpages"
-name = "All Pages"
+name = "Semua Pages"
 weight = 35
 [[menu.main]]
 identifier = "section.ap-home"
