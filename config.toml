@@ -6,7 +6,7 @@ languageCode = "en-us"
 paginate = 10
 summaryLength = 70
 theme = "hugo-universal-theme"
-title = "Universal"
+title = "BeningAbadi"
 [[menu.main]]
 identifier = "menu.home"
 name = "Home"
@@ -282,7 +282,7 @@ defaultDescription = "Site template made by devcows using hugo"
 defaultKeywords = ["devcows", "hugo", "go"]
 default_sharing_image = "img/sharing-default.png"
 disabled_logo = false
-enableGoogleMaps = true
+enableGoogleMaps = false
 enableRecaptchaInContactForm = false
 facebook_site = ""
 formspree_action = "https://formspree.io/sample/of/endpoint"
