@@ -320,7 +320,7 @@ title = "Our Clients"
 cols = 3
 enable = true
 [params.footer.recent_posts]
-enable = true
+enable = false
 [params.recent_posts]
 enable = true
 hide_summary = false
