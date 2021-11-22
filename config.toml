@@ -8,56 +8,190 @@ summaryLength = 70
 theme = "hugo-universal-theme"
 title = "Universal"
 [[menu.main]]
-name = "Typography"
-parent = "section.shortcodes"
-weight = 50
+identifier = "menu.home"
+name = "Home"
+url = "/"
+weight = 14
 [[menu.main]]
-name = "Portfolio - detail 2"
-parent = "section.portfolio"
-weight = 49
-[[menu.main]]
-name = "Tabs"
-parent = "section.shortcodes"
-weight = 48
-[[menu.main]]
-identifier = "contact"
-name = "Contact"
-url = "/contact/"
-weight = 46
-[[menu.main]]
-name = "Pagination"
-parent = "section.shortcodes"
-weight = 45
-[[menu.main]]
-identifier = "menu.faq"
-name = "FAK"
-url = "/faq/"
-weight = 43
-[[menu.main]]
-name = "Option 5: Portfolio"
+name = "Option 1: Default Page"
 parent = "menu.home"
 url = "/"
-weight = 42
+weight = 13
 [[menu.main]]
-identifier = "section.headervariations"
-name = "Header variations"
+name = "Option 2: Application"
+parent = "menu.home"
+url = "/"
+weight = 25
+[[menu.main]]
+name = "Option 3: Startup"
+parent = "menu.home"
+url = "/"
+weight = 34
+[[menu.main]]
+name = "Option 4: Agency"
+parent = "menu.home"
+url = "/"
+weight = 38
+[[menu.main]]
+identifier = "menu.features"
+name = "Features"
+url = "/img/template-easy-customize.png"
+weight = 33
+[[menu.main]]
+identifier = "section.shortcodes"
+name = "Shortcodes"
 parent = "menu.features"
-post = 2
-weight = 24
+post = 1
+weight = 12
 [[menu.main]]
-name = "Alerts"
+name = "Accordions"
 parent = "section.shortcodes"
-weight = 23
+weight = 11
 [[menu.main]]
-identifier = "menu.blog"
-name = "Blog"
-url = "/blog/"
-weight = 39
+name = "Buttons"
+parent = "section.shortcodes"
+weight = 32
 [[menu.main]]
-name = "Blog Listing Big"
-parent = "section.ap-blog"
-url = "/blog/"
-weight = 1
+name = "Content Boxes"
+parent = "section.shortcodes"
+weight = 37
+[[menu.main]]
+name = "Horizontal Blocks"
+parent = "section.shortcodes"
+weight = 41
+[[menu.main]]
+name = "Default Sticky Header"
+parent = "section.headervariations"
+weight = 10
+[[menu.main]]
+name = "No Sticky Header"
+parent = "section.headervariations"
+weight = 22
+[[menu.main]]
+name = "Light Header"
+parent = "section.headervariations"
+weight = 31
+[[menu.main]]
+identifier = "menu.portfolio"
+name = "Portfolio"
+url = "/img/template-homepage.png"
+weight = 30
+[[menu.main]]
+identifier = "section.portfolio"
+name = "Portfolio"
+parent = "menu.portfolio"
+post = 1
+weight = 9
+[[menu.main]]
+name = "2 Columns"
+parent = "section.portfolio"
+weight = 8
+[[menu.main]]
+name = "2 Columns With Negative Space"
+parent = "section.portfolio"
+weight = 21
+[[menu.main]]
+name = "3 Columns"
+parent = "section.portfolio"
+weight = 29
+[[menu.main]]
+name = "3 Columns With Negative Space"
+parent = "section.portfolio"
+weight = 36
+[[menu.main]]
+name = "4 Columns"
+parent = "section.portfolio"
+weight = 40
+[[menu.main]]
+name = "4 Columns With Negative Space"
+parent = "section.portfolio"
+weight = 44
+[[menu.main]]
+name = "Portfolio - detail"
+parent = "section.portfolio"
+weight = 47
+[[menu.main]]
+identifier = "section.about"
+name = "About"
+parent = "menu.portfolio"
+post = 2
+weight = 20
+[[menu.main]]
+name = "About Us"
+parent = "section.about"
+weight = 7
+[[menu.main]]
+name = "Our Team"
+parent = "section.about"
+weight = 19
+[[menu.main]]
+identifier = "section.marketing"
+name = "Marketing"
+parent = "menu.portfolio"
+post = 2
+weight = 28
+[[menu.main]]
+name = "Packages"
+parent = "section.marketing"
+weight = 6
+[[menu.main]]
+identifier = "menu.allpages"
+name = "All Pages"
+weight = 35
+[[menu.main]]
+identifier = "section.ap-home"
+name = "Home"
+parent = "menu.allpages"
+post = 1
+weight = 5
+[[menu.main]]
+identifier = "section.ap-about"
+name = "About"
+parent = "menu.allpages"
+post = 1
+weight = 18
+[[menu.main]]
+identifier = "section.ap-marketing"
+name = "Marketing"
+parent = "menu.allpages"
+post = 1
+weight = 27
+[[menu.main]]
+identifier = "section.ap-portfolio"
+name = "Portfolio"
+parent = "menu.allpages"
+post = 2
+weight = 4
+[[menu.main]]
+identifier = "section.ap-userpages"
+name = "User Pages"
+parent = "menu.allpages"
+post = 2
+weight = 17
+[[menu.main]]
+identifier = "section.ap-shop"
+name = "Shop"
+parent = "menu.allpages"
+post = 3
+weight = 3
+[[menu.main]]
+identifier = "section.ap-shoporderprocess"
+name = "Shop - Order Process"
+parent = "menu.allpages"
+post = 3
+weight = 16
+[[menu.main]]
+identifier = "section.ap-contact"
+name = "Contact"
+parent = "menu.allpages"
+post = 4
+weight = 2
+[[menu.main]]
+identifier = "section.ap-pages"
+name = "Pages"
+parent = "menu.allpages"
+post = 4
+weight = 15
 [[menu.main]]
 identifier = "section.ap-blog"
 name = "Blog"
@@ -66,215 +200,81 @@ post = 4
 url = "/blog/"
 weight = 26
 [[menu.main]]
-identifier = "section.ap-pages"
-name = "Pages"
-parent = "menu.allpages"
-post = 4
-weight = 15
+name = "Blog Listing Big"
+parent = "section.ap-blog"
+url = "/blog/"
+weight = 1
 [[menu.main]]
-identifier = "section.ap-contact"
-name = "Contact"
-parent = "menu.allpages"
-post = 4
-weight = 2
+identifier = "menu.blog"
+name = "Blog"
+url = "/blog/"
+weight = 39
 [[menu.main]]
-identifier = "section.ap-shoporderprocess"
-name = "Shop - Order Process"
-parent = "menu.allpages"
-post = 3
-weight = 16
-[[menu.main]]
-identifier = "section.ap-shop"
-name = "Shop"
-parent = "menu.allpages"
-post = 3
-weight = 3
-[[menu.main]]
-identifier = "section.ap-userpages"
-name = "User Pages"
-parent = "menu.allpages"
-post = 2
-weight = 17
-[[menu.main]]
-identifier = "section.ap-portfolio"
-name = "Portfolio"
-parent = "menu.allpages"
-post = 2
-weight = 4
-[[menu.main]]
-identifier = "section.ap-marketing"
-name = "Marketing"
-parent = "menu.allpages"
-post = 1
-weight = 27
-[[menu.main]]
-identifier = "section.ap-about"
-name = "About"
-parent = "menu.allpages"
-post = 1
-weight = 18
-[[menu.main]]
-identifier = "section.ap-home"
-name = "Home"
-parent = "menu.allpages"
-post = 1
-weight = 5
-[[menu.main]]
-identifier = "menu.allpages"
-name = "All Pages"
-weight = 35
-[[menu.main]]
-name = "Packages"
-parent = "section.marketing"
-weight = 6
-[[menu.main]]
-identifier = "section.marketing"
-name = "Marketing"
-parent = "menu.portfolio"
-post = 2
-weight = 28
-[[menu.main]]
-name = "Our Team"
-parent = "section.about"
-weight = 19
-[[menu.main]]
-name = "About Us"
-parent = "section.about"
-weight = 7
-[[menu.main]]
-identifier = "section.about"
-name = "About"
-parent = "menu.portfolio"
-post = 2
-weight = 20
-[[menu.main]]
-name = "Portfolio - detail"
-parent = "section.portfolio"
-weight = 47
-[[menu.main]]
-name = "4 Columns With Negative Space"
-parent = "section.portfolio"
-weight = 44
-[[menu.main]]
-name = "4 Columns"
-parent = "section.portfolio"
-weight = 40
-[[menu.main]]
-name = "3 Columns With Negative Space"
-parent = "section.portfolio"
-weight = 36
-[[menu.main]]
-name = "3 Columns"
-parent = "section.portfolio"
-weight = 29
-[[menu.main]]
-name = "2 Columns With Negative Space"
-parent = "section.portfolio"
-weight = 21
-[[menu.main]]
-name = "2 Columns"
-parent = "section.portfolio"
-weight = 8
-[[menu.main]]
-identifier = "section.portfolio"
-name = "Portfolio"
-parent = "menu.portfolio"
-post = 1
-weight = 9
-[[menu.main]]
-identifier = "menu.portfolio"
-name = "Portfolio"
-url = "/img/template-homepage.png"
-weight = 30
-[[menu.main]]
-name = "Light Header"
-parent = "section.headervariations"
-weight = 31
-[[menu.main]]
-name = "No Sticky Header"
-parent = "section.headervariations"
-weight = 22
-[[menu.main]]
-name = "Default Sticky Header"
-parent = "section.headervariations"
-weight = 10
-[[menu.main]]
-name = "Horizontal Blocks"
+name = "Alerts"
 parent = "section.shortcodes"
-weight = 41
+weight = 23
 [[menu.main]]
-name = "Content Boxes"
-parent = "section.shortcodes"
-weight = 37
-[[menu.main]]
-name = "Buttons"
-parent = "section.shortcodes"
-weight = 32
-[[menu.main]]
-name = "Accordions"
-parent = "section.shortcodes"
-weight = 11
-[[menu.main]]
-identifier = "section.shortcodes"
-name = "Shortcodes"
+identifier = "section.headervariations"
+name = "Header variations"
 parent = "menu.features"
-post = 1
-weight = 12
+post = 2
+weight = 24
 [[menu.main]]
-identifier = "menu.features"
-name = "Features"
-url = "/img/template-easy-customize.png"
-weight = 33
-[[menu.main]]
-name = "Option 4: Agency"
+name = "Option 5: Portfolio"
 parent = "menu.home"
 url = "/"
-weight = 38
+weight = 42
 [[menu.main]]
-name = "Option 3: Startup"
-parent = "menu.home"
-url = "/"
-weight = 34
+identifier = "menu.faq"
+name = "FAKU!"
+url = "/faq/"
+weight = 43
 [[menu.main]]
-name = "Option 2: Application"
-parent = "menu.home"
-url = "/"
-weight = 25
+name = "Pagination"
+parent = "section.shortcodes"
+weight = 45
 [[menu.main]]
-name = "Option 1: Default Page"
-parent = "menu.home"
-url = "/"
-weight = 13
+identifier = "contact"
+name = "Contact"
+url = "/contact/"
+weight = 46
 [[menu.main]]
-identifier = "menu.home"
-name = "Home"
-url = "/"
-weight = 14
+name = "Tabs"
+parent = "section.shortcodes"
+weight = 48
+[[menu.main]]
+name = "Portfolio - detail 2"
+parent = "section.portfolio"
+weight = 49
+[[menu.main]]
+name = "Typography"
+parent = "section.shortcodes"
+weight = 50
 [[menu.topbar]]
-name = "Email"
-pre = "<i class='fas fa-2x fa-envelope'></i>"
-url = "mailto:hello@universal.com"
-weight = 5
-[[menu.topbar]]
-name = "Twitter"
-pre = "<i class='fab fa-2x fa-twitter'></i>"
-url = "http://twitter.com"
-weight = 4
-[[menu.topbar]]
-name = "Facebook"
-pre = "<i class='fab fa-2x fa-facebook'></i>"
-url = "http://facebook.com"
-weight = 3
+name = "Phone"
+pre = "<i class='fas fa-2x fa-phone'></i>"
+url = "tel:+12 34 567 89 01"
+weight = 1
 [[menu.topbar]]
 name = "GitHub"
 pre = "<i class='fab fa-2x fa-github'></i>"
 url = "https://github.com/devcows/hugo-universal-theme"
 weight = 2
 [[menu.topbar]]
-name = "Phone"
-pre = "<i class='fas fa-2x fa-phone'></i>"
-url = "tel:+12 34 567 89 01"
-weight = 1
+name = "Facebook"
+pre = "<i class='fab fa-2x fa-facebook'></i>"
+url = "http://facebook.com"
+weight = 3
+[[menu.topbar]]
+name = "Twitter"
+pre = "<i class='fab fa-2x fa-twitter'></i>"
+url = "http://twitter.com"
+weight = 4
+[[menu.topbar]]
+name = "Email"
+pre = "<i class='fas fa-2x fa-envelope'></i>"
+url = "mailto:hello@universal.com"
+weight = 5
 [params]
 about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
 address = "<p class=\"text-uppercase\"><strong>Universal Ltd.</strong>\n        <br>13/25 New Avenue\n        <br>Newtown upon River\n        <br>45Y 73J\n        <br>England\n        <br>\n        <strong>Great Britain</strong>\n      </p>\n      "
