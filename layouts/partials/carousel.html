@@ -14,7 +14,6 @@
                         <div class="col-sm-5 right">
                             <h1>{{ .title }}</h1>
                             {{ .description | safeHTML }}
-                            {{ .Site.Params.CarouselHomepage | markdownify }}
                         </div>
                         <div class="col-sm-7">
                             <img class="img-responsive" src="{{ .image }}" alt="">
