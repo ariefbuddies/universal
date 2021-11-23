@@ -1,5 +1,6 @@
 {{ if default true .Site.Params.CarouselHomepage.enable }}
 {{ if gt (len .Site.Data.carousel) 0 }}
+{{ .Site.Params.CarouselHomepage | markdownify }}
 <section>
     <div class="home-carousel">
         <div class="dark-mask"></div>
@@ -26,6 +27,5 @@
         </div>
     </div>
 </section>
-{{ .Site.Params.CarouselHomepage | markdownify }}
 {{ end }}
 {{ end }}
