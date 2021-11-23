@@ -1,6 +1,5 @@
 {{ if default true .Site.Params.CarouselHomepage.enable }}
 {{ if gt (len .Site.Data.carousel) 0 }}
-{{ .Site.Params.CarouselHomepage | markdownify }}
 <section>
     <div class="home-carousel">
         <div class="dark-mask"></div>
@@ -10,6 +9,7 @@
                 data-slide-speed="{{ default 2000 .Site.Params.CarouselHomepage.slide_speed }}"
                 data-pagination-speed="{{ default 1000 .Site.Params.CarouselHomepage.pagination_speed }}">
                 {{ range sort .Site.Data.carousel "weight" }}
+                {{ .Site.Params.CarouselHomepage | markdownify }}
                 <div class="item">
                     <div class="row">
                         <div class="col-sm-5 right">
