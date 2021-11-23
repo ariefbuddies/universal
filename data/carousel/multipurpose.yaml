@@ -1,7 +1,6 @@
 weight: 1
 title: "Penginapan Murah Jogja"
-description: "https://beningabaditransport.com"
-menu:
+description:
   main:
     - identifier: "contact" # different for all menu entries, useful especially when menu name coincides
       name: "contact" # shown on website/blog
