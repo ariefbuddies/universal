@@ -6,15 +6,15 @@
         <div class="container">
             <div class="homepage owl-carousel"
                 data-autoplay="{{ default true .Site.Params.CarouselHomepage.auto_play }}"
-                data-slide-speed="{{ default 2000 .Site.Params.CarouselHomepage.slide_speed }}"
-                data-pagination-speed="{{ default 1000 .Site.Params.CarouselHomepage.pagination_speed }}">
+                data-slide-speed="{{ default 500 .Site.Params.CarouselHomepage.slide_speed }}"
+                data-pagination-speed="{{ default 100 .Site.Params.CarouselHomepage.pagination_speed }}">
                 {{ range sort .Site.Data.carousel "weight" }}
                 <div class="item">
                     <div class="row">
                         <div class="col-sm-5 right">
                             <h1>{{ .title }}</h1>
                             <h2>{{ .description | safeHTML }}</h2>
-                            <a href="https://beningabaditransport.com" target="_blank"><p style="font-size:30px;color:white">Klik Untuk Info!</p></a>
+                            <a href="https://beningabaditransport.com/penginapan/" target="_blank"><p style="font-size:30px;color:white">Klik Untuk Info!</p></a>
                             <hr>
                         </div>
                         <div class="col-sm-7">
