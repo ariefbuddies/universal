@@ -255,20 +255,15 @@ pre = "<i class='fas fa-2x fa-phone'></i>"
 url = "tel:+12 34 567 89 01"
 weight = 1
 [[menu.topbar]]
-name = "GitHub"
-pre = "<i class='fab fa-2x fa-github'></i>"
-url = "https://github.com/devcows/hugo-universal-theme"
-weight = 2
-[[menu.topbar]]
 name = "Facebook"
 pre = "<i class='fab fa-2x fa-facebook'></i>"
 url = "http://facebook.com"
-weight = 3
+weight = 2
 [[menu.topbar]]
 name = "Twitter"
 pre = "<i class='fab fa-2x fa-twitter'></i>"
 url = "http://twitter.com"
-weight = 4
+weight = 3
 [params]
 about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
 address = "<p class=\"text-uppercase\"><strong>Universal Ltd.</strong>\n        <br>13/25 New Avenue\n        <br>Newtown upon River\n        <br>45Y 73J\n        <br>England\n        <br>\n        <strong>Great Britain</strong>\n      </p>\n      "
@@ -277,7 +272,7 @@ contact_form_ajax = false
 contact_url = "/contact"
 copyright = "Bening Abadi @2022"
 date_format = "January 2, 2006"
-defaultDescription = "Site template made by devcows using hugo"
+defaultDescription = "Site Bening Abadi made by devcows using hugo"
 defaultKeywords = ["devcows", "hugo", "go"]
 default_sharing_image = "img/sharing-default.png"
 disabled_logo = false
@@ -304,13 +299,13 @@ slide_speed = 500
 [params.carouselHomepage]
 auto_play = true
 enable = true
-pagination_speed = 1000
-slide_speed = 1000
+pagination_speed = 500
+slide_speed = 100
 [params.carouselTestimonals]
 auto_play = true
 items = 4
-pagination_speed = 1000
-slide_speed = 1000
+pagination_speed = 500
+slide_speed = 100
 [params.clients]
 enable = true
 subtitle = ""
@@ -338,7 +333,7 @@ subtitle = "We have worked with many clients and we always like to hear they com
 title = "Testimonials"
 [params.topbar]
 enable = true
-text = "<p class=\"hidden-sm hidden-xs\">Contact us on +420 777 555 333 or hello@universal.com.</p>\n      <p class=\"hidden-md hidden-lg\"><a href=\"tel:+420 777 555 333\" data-animate-hover=\"pulse\"><i class=\"fas fa-phone\"></i></a>\n      <a href=\"mailto:hello@universal.com\" data-animate-hover=\"pulse\"><i class=\"fas fa-envelope\"></i></a>\n      </p>\n      "
+text = "<p class=\"hidden-sm hidden-xs\">Contact us on +420 777 555 333 or hello@universal.com.</p>\n      <p class=\"hidden-md hidden-lg\"><a href=\"tel:+420 777 555 333\" data-animate-hover=\"pulse\"><i class=\"fas fa-phone\"></i></a>\n</p>\n"
 [params.widgets]
 categories = false
 search = false
