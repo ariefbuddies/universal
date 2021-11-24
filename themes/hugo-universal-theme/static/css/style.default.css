@@ -1,7 +1,7 @@
 /* Themed colors */
 :root {
   --primary-accent: #a8780f;
-  --navbar-border-top: #20616d;
+  --navbar-border-top: #000000;
   --button-border: #2a7d8c;
   --link-focus: #267280;
   --form-shadow: rgba(56, 167, 187, 0.6);
