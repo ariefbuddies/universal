@@ -310,6 +310,10 @@ slide_speed = 100
 enable = true
 subtitle = ""
 title = "Sewa Motor Jogja"
+[params.clients2]
+enable = false
+subtitle = ""
+title = "Rental Mobil Jogja"
 [params.features]
 cols = 3
 enable = true
