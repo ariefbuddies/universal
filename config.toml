@@ -22,16 +22,6 @@ parent = "menu.home"
 url = "/"
 weight = 25
 [[menu.main]]
-name = "Option 3: Startup"
-parent = "menu.home"
-url = "/"
-weight = 34
-[[menu.main]]
-name = "Option 4: Agency"
-parent = "menu.home"
-url = "/"
-weight = 38
-[[menu.main]]
 identifier = "menu.features"
 name = "Features"
 url = "/img/template-easy-customize.png"
@@ -57,12 +47,6 @@ weight = 20
 name = "Our Team"
 parent = "section.about"
 weight = 19
-[[menu.main]]
-identifier = "section.marketing"
-name = "Marketing"
-parent = "menu.portfolio"
-post = 2
-weight = 28
 [[menu.main]]
 identifier = "menu.allpages"
 name = "Semua Pages"
@@ -104,12 +88,6 @@ parent = "menu.allpages"
 post = 3
 weight = 3
 [[menu.main]]
-identifier = "section.ap-shoporderprocess"
-name = "Shop - Order Process"
-parent = "menu.allpages"
-post = 3
-weight = 16
-[[menu.main]]
 identifier = "section.ap-contact"
 name = "Contact"
 parent = "menu.allpages"
@@ -142,13 +120,6 @@ weight = 39
 name = "Alerts"
 parent = "section.shortcodes"
 weight = 23
-[[menu.main]]
-identifier = "section.headervariations"
-name = "Header variations"
-parent = "menu.features"
-post = 2
-weight = 24
-[[menu.main]]
 [[menu.main]]
 identifier = "menu.faq"
 name = "FAQ!"
@@ -218,11 +189,11 @@ pagination_speed = 500
 slide_speed = 100
 [params.clients]
 enable = true
-subtitle = ""
+subtitle = "Mulai 70Rb perhari!"
 title = "Sewa Motor Jogja"
 [params.clients2]
 enable = true
-subtitle = ""
+subtitle = "Mulai 250Rb perhari lepas kunci!"
 title = "Rental Mobil Jogja"
 [params.features]
 cols = 3
