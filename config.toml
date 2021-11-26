@@ -266,7 +266,7 @@ url = "http://www.instagram.com"
 weight = 3
 [params]
 about_us = "<p>• Jam Operasional 09.00 – 22.00 WIB.<br>• Pengantaran dan pengambilan mobil/motor mulai jam 09.00-21.00 WIB. Diluar jam diatas bisa langsung datang ke garasi kami.<br>• 3 Tanda pengenal/ID (KTP,NPWP,SIM,PASPORT,ID KERJA,BPJS).<br>• No Telp HP customer yang bisa dihubungi.<br>• Tanpa uang jaminan.<br>• Overtime 10% per jam dari tarif sewa.<br>• Saat hari high season harga berbeda dengan harga hari normal</p>"
-address = "<p class=\"text-uppercase\"><strong>Bening Abadi Transport</strong>\n        <br>Jl. Nusa Indah CT6 No.22B\n        <br>Samirono\n        <br>Kelurahan Caturtunggal\n        <br>Kecamatan Depok,Kabpupaten Sleman,DIY\n        <br>\n        <strong>Indonesia</strong>\n      </p>\n      "
+address = "<p class=\"text-uppercase\"><strong>Bening Abadi Transport</strong>\n        <br>Jl. Nusa Indah CT6 No.22B\n        <br>Samirono\n        <br>Kelurahan Caturtunggal\n        <br>Kecamatan Depok, Kabupaten Sleman, DIY\n        <br>\n        <strong>Indonesia</strong>\n      </p>\n      "
 author = "Bening"
 contact_form_ajax = false
 contact_url = "/contact"
