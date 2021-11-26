@@ -260,9 +260,9 @@ pre = "<i class='fab fa-2x fa-facebook'></i>"
 url = "http://facebook.com"
 weight = 2
 [[menu.topbar]]
-name = "Twitter"
-pre = "<i class='fab fa-2x fa-twitter'></i>"
-url = "http://twitter.com"
+name = "Instagram"
+pre = "<i class='fab fa-2x fa-instagram'></i>"
+url = "http://www.instagram.com"
 weight = 3
 [params]
 about_us = "<p>• Jam Operasional 09.00 – 22.00 WIB.<br>• Pengantaran dan pengambilan mobil/motor mulai jam 09.00-21.00 WIB. Diluar jam diatas bisa langsung datang ke garasi kami.<br>• 3 Tanda pengenal/ID (KTP,NPWP,SIM,PASPORT,ID KERJA,BPJS).<br>• No Telp HP customer yang bisa dihubungi.<br>• Tanpa uang jaminan.<br>• Overtime 10% per jam dari tarif sewa.<br>• Saat hari high season harga berbeda dengan harga hari normal</p>"
