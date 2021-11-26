@@ -265,7 +265,7 @@ pre = "<i class='fab fa-2x fa-twitter'></i>"
 url = "http://twitter.com"
 weight = 3
 [params]
-about_us = "<p>Syarat Dan Ketentuan Berlaku. Jam Operasional 09.00 – 22.00 WIB. Pengantaran dan pengambilan mobil/motor mulai jam 09.00-21.00 WIB. Diluar jam diatas bisa langsung datang ke garasi kami.3 Tanda pengenal/ID (KTP,NPWP,SIM,PASPORT,ID KERJA,BPJS). No Telp HP customer yang bisa dihubungi. Tanpa uang jaminan. Overtime 10% per jam dari Tarif Sewa. Saat hari High Season harga berbeda dengan harga hari normal</p>"
+about_us = "<p>Syarat Dan Ketentuan Berlaku.</p><p>Jam Operasional 09.00 – 22.00 WIB. Pengantaran dan pengambilan mobil/motor mulai jam 09.00-21.00 WIB. Diluar jam diatas bisa langsung datang ke garasi kami.3 Tanda pengenal/ID (KTP,NPWP,SIM,PASPORT,ID KERJA,BPJS). No Telp HP customer yang bisa dihubungi. Tanpa uang jaminan. Overtime 10% per jam dari Tarif Sewa. Saat hari High Season harga berbeda dengan harga hari normal</p>"
 address = "<p class=\"text-uppercase\"><strong>Universal Ltd.</strong>\n        <br>13/25 New Avenue\n        <br>Newtown upon River\n        <br>45Y 73J\n        <br>England\n        <br>\n        <strong>Great Britain</strong>\n      </p>\n      "
 author = "Bening"
 contact_form_ajax = false
