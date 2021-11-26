@@ -17,10 +17,7 @@
                         </div>
                         <div class="col-sm-7">
                             <img class="img-responsive" src="{{ .image }}" alt="">
-                        </div>
-                    </div>
-                </div>
-                  <li class="item" title="{{ .name }}">
+                             <li class="item" title="{{ .name }}">
                         {{ if .url }}
                           <a href="{{ .url }}" target="_blank">
                             <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
@@ -29,6 +26,10 @@
                           <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
                         {{ end }}
                     </li>
+                        </div>
+                    </div>
+                </div>
+                 
                 {{ end }}
             </div>
             <!-- /.project owl-slider -->
