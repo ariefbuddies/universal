@@ -311,7 +311,7 @@ enable = true
 subtitle = ""
 title = "Sewa Motor Jogja"
 [params.clients2]
-enable = false
+enable = true
 subtitle = ""
 title = "Rental Mobil Jogja"
 [params.features]
