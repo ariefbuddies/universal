@@ -22,15 +22,6 @@
                         </div>
                     </div>
                 </div>
-                <li class="item" title="{{ .name }}">
-                        {{ if .url }}
-                          <a href="{{ .url }}" target="_blank">
-                            <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
-                          </a>
-                        {{ else }}
-                          <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
-                        {{ end }}
-                    </li>
                 {{ end }}
             </div>
             <!-- /.project owl-slider -->
