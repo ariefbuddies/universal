@@ -3573,3 +3573,53 @@ a.list-group-item.active > .badge,
   left: 15px;
   right: 15px;
 }
+.my-float1{
+	margin-top:12px;
+}
+.float2{
+	position:fixed;
+	width:160px;
+	height:40px;
+	bottom:80px;
+	right:20px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:40px;
+	text-align:center;
+  font-size:18px;
+	box-shadow: 5px 5px 3px #999;
+  z-index:100;
+}
+
+.my-float2{
+	margin-top:12px;
+}
+.float3{
+	position:flex;
+	width:160px;
+	height:40px;
+	bottom:20px;
+	right:20px;
+	background-color:#25d366;
+	color:#000;
+	border-radius:40px;
+	text-align:center;
+        font-size:18px;
+	box-shadow: 5px 5px 3px #999;
+  z-index:100;
+}
+
+.my-float3{
+	margin-top:12px;
+}
+.columnwa {
+  float: right;
+  width: 100%;
+  padding: 1px;
+  height: 300px
+/* Clear floats after the columns */
+.rowwa:after {
+  content: "";
+  display: table;
+}
+
