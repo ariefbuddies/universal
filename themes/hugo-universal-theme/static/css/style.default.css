@@ -3573,6 +3573,20 @@ a.list-group-item.active > .badge,
   left: 15px;
   right: 15px;
 }
+.float1{
+	position:fixed;
+	width:160px;
+	height:40px;
+	bottom:20px;
+	right:20px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:40px;
+	text-align:center;
+  font-size:18px;
+	box-shadow: 5px 5px 3px #999;
+  z-index:100;
+}
 .my-float1{
 	margin-top:12px;
 }
