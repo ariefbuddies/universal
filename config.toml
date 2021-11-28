@@ -180,12 +180,12 @@ pagination_speed = 500
 slide_speed = 100
 [params.clients]
 enable = true
-subtitle = "Mulai 70Rb perhari!"
-title = "Sewa Motor Jogja"
+subtitle = "Mulai 250k perhari lepas kunci!"
+title = "Sewa Mobil Jogja"
 [params.clients2]
 enable = true
-subtitle = "Mulai 250Rb perhari lepas kunci!"
-title = "Rental Mobil Jogja"
+subtitle = "Mulai 70k perhari!"
+title = "Rental Motor Jogja"
 [params.features]
 cols = 3
 enable = true
