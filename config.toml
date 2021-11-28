@@ -52,31 +52,31 @@ url = "/blog/"
 weight = 19
 [[menu.main]]
 identifier = "menu.penginapan"
-name = "Sewa Mobil"
+name = "Penginapan"
 url = "/img/template-homepage.png"
-weight = 30
+weight = 40
 [[menu.main]]
 identifier = "section.gh"
 name = "Guest House"
 parent = "menu.penginapan"
 post = 1
-weight = 9
+weight = 41
 [[menu.main]]
 identifier = "section.kamar"
 name = "Kamar"
 parent = "menu.penginapan"
 post = 2
-weight = 20
+weight = 42
 [[menu.main]]
 name = "Kamar Deluxe"
 parent = "section.kamar"
 url = "/blog/"
-weight = 19
+weight = 43
 [[menu.main]]
 name = "Kamar Reguler"
 parent = "section.kamar"
 url = "/blog/"
-weight = 20
+weight = 44
 [[menu.topbar]]
 name = "Phone"
 pre = "<i class='fas fa-2x fa-phone'></i>"
