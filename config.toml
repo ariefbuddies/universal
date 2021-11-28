@@ -12,16 +12,6 @@ name = "Home"
 url = "/"
 weight = 14
 [[menu.main]]
-name = "Option 1: Default Page"
-parent = "menu.home"
-url = "/"
-weight = 13
-[[menu.main]]
-name = "Option 2: Application"
-parent = "menu.home"
-url = "/"
-weight = 25
-[[menu.main]]
 identifier = "menu.rentalmotor"
 name = "Rental Motor"
 url = "/img/template-homepage.png"
@@ -41,6 +31,7 @@ weight = 20
 [[menu.main]]
 name = "Honda Vario 150"
 parent = "section.vario"
+url = "/blog/"
 weight = 19
 [[menu.main]]
 identifier = "menu.allpages"
