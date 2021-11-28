@@ -22,20 +22,20 @@ parent = "menu.home"
 url = "/"
 weight = 25
 [[menu.main]]
-identifier = "menu.portfolio"
-name = "Portfolio"
+identifier = "menu.rentalmotor"
+name = "Rental Motor"
 url = "/img/template-homepage.png"
 weight = 30
 [[menu.main]]
-identifier = "section.portfolio"
-name = "Portfolio"
-parent = "menu.portfolio"
+identifier = "section.rentalmotor"
+name = "Rental Motor"
+parent = "menu.rentalmotor"
 post = 1
 weight = 9
 [[menu.main]]
 identifier = "section.about"
 name = "About"
-parent = "menu.portfolio"
+parent = "menu.rentalmotor"
 post = 2
 weight = 20
 [[menu.main]]
