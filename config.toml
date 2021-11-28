@@ -50,21 +50,6 @@ name = "Avanza Manual"
 parent = "section.avanza"
 url = "/blog/"
 weight = 19
-[[menu.main]]
-identifier = "menu.blog"
-name = "Blog"
-url = "/blog/"
-weight = 39
-[[menu.main]]
-identifier = "menu.faq"
-name = "FAQ!"
-url = "/faq/"
-weight = 43
-[[menu.main]]
-identifier = "contact"
-name = "Contact"
-url = "/contact/"
-weight = 46
 [[menu.topbar]]
 name = "Phone"
 pre = "<i class='fas fa-2x fa-phone'></i>"
