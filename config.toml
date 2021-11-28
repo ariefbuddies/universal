@@ -33,14 +33,14 @@ parent = "menu.rentalmotor"
 post = 1
 weight = 9
 [[menu.main]]
-identifier = "section.about"
-name = "About"
+identifier = "section.vario"
+name = "Honda Vario"
 parent = "menu.rentalmotor"
 post = 2
 weight = 20
 [[menu.main]]
-name = "Our Team"
-parent = "section.about"
+name = "Honda Vario 150"
+parent = "section.vario"
 weight = 19
 [[menu.main]]
 identifier = "menu.allpages"
