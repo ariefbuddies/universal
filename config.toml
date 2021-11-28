@@ -29,6 +29,28 @@ parent = "section.vario"
 url = "/blog/"
 weight = 19
 [[menu.main]]
+identifier = "menu.sewamobil"
+name = "Sewa Mobil"
+url = "/img/template-homepage.png"
+weight = 30
+[[menu.main]]
+identifier = "section.alya"
+name = "Alya"
+parent = "menu.sewamobil"
+post = 1
+weight = 9
+[[menu.main]]
+identifier = "section.avanza"
+name = "Avanza"
+parent = "menu.sewamobil"
+post = 2
+weight = 20
+[[menu.main]]
+name = "Avanza Manual"
+parent = "section.avanza"
+url = "/blog/"
+weight = 19
+[[menu.main]]
 identifier = "menu.blog"
 name = "Blog"
 url = "/blog/"
