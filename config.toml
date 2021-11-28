@@ -7,11 +7,6 @@ summaryLength = 70
 theme = "hugo-universal-theme"
 title = "Bening Abadi Jogja"
 [[menu.main]]
-identifier = "menu.home"
-name = "Home"
-url = "/"
-weight = 14
-[[menu.main]]
 identifier = "menu.rentalmotor"
 name = "Rental Motor"
 url = "/img/template-homepage.png"
