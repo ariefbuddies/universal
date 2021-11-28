@@ -12,8 +12,8 @@ name = "Rental Motor"
 url = "/img/template-homepage.png"
 weight = 30
 [[menu.main]]
-identifier = "section.rentalmotor"
-name = "Rental Motor"
+identifier = "section.beat"
+name = "Honda Beat"
 parent = "menu.rentalmotor"
 post = 1
 weight = 9
