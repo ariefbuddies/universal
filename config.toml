@@ -29,70 +29,6 @@ parent = "section.vario"
 url = "/blog/"
 weight = 19
 [[menu.main]]
-identifier = "menu.allpages"
-name = "Semua Pages"
-weight = 35
-[[menu.main]]
-identifier = "section.ap-home"
-name = "Home"
-parent = "menu.allpages"
-post = 1
-weight = 5
-[[menu.main]]
-identifier = "section.ap-about"
-name = "About"
-parent = "menu.allpages"
-post = 1
-weight = 18
-[[menu.main]]
-identifier = "section.ap-marketing"
-name = "Marketing"
-parent = "menu.allpages"
-post = 1
-weight = 27
-[[menu.main]]
-identifier = "section.ap-portfolio"
-name = "Portfolio"
-parent = "menu.allpages"
-post = 2
-weight = 4
-[[menu.main]]
-identifier = "section.ap-userpages"
-name = "User Pages"
-parent = "menu.allpages"
-post = 2
-weight = 17
-[[menu.main]]
-identifier = "section.ap-shop"
-name = "Shop"
-parent = "menu.allpages"
-post = 3
-weight = 3
-[[menu.main]]
-identifier = "section.ap-contact"
-name = "Contact"
-parent = "menu.allpages"
-post = 4
-weight = 2
-[[menu.main]]
-identifier = "section.ap-pages"
-name = "Pages"
-parent = "menu.allpages"
-post = 4
-weight = 15
-[[menu.main]]
-identifier = "section.ap-blog"
-name = "Blog"
-parent = "menu.allpages"
-post = 4
-url = "/blog/"
-weight = 26
-[[menu.main]]
-name = "Blog Listing Big"
-parent = "section.ap-blog"
-url = "/blog/"
-weight = 1
-[[menu.main]]
 identifier = "menu.blog"
 name = "Blog"
 url = "/blog/"
@@ -110,7 +46,7 @@ weight = 46
 [[menu.topbar]]
 name = "Phone"
 pre = "<i class='fas fa-2x fa-phone'></i>"
-url = "tel:+62 081 826 74 43"
+url = "tel:+62 81 826 74 43"
 weight = 1
 [[menu.topbar]]
 name = "Facebook"
@@ -131,7 +67,7 @@ contact_url = "/contact"
 copyright = "Bening Abadi @2022"
 date_format = "January 2, 2006"
 defaultDescription = "Site Bening Abadi made by devcows using hugo"
-defaultKeywords = ["sewa", "rental", "penginapan"]
+defaultKeywords = ["sewa", "rental", "penginapan", "mobil", "motor"]
 default_sharing_image = "img/sharing-default.png"
 disabled_logo = false
 enableGoogleMaps = false
@@ -185,7 +121,7 @@ title = "From our blog"
 [params.see_more]
 enable = true
 icon = "far fa-file-alt"
-link_text = "Check other homepages"
+link_text = "Mau Kemana Hari Ini?"
 link_url = "#"
 subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
 title = "Do you want to see more?"
