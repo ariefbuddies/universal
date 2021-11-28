@@ -12,10 +12,7 @@
                 <p class="lead">
                   {{ .Site.Params.clients.subtitle | markdownify }}
                 </p>
-                <div class="col-sm-5 right">
-                            <h4>{{ .description | safeHTML }}</h4>
-                            <hr>
-                        </div>
+               
 
                 <ul class="owl-carousel customers"
                     data-items="{{ default 6 .Site.Params.CarouselCustomers.items }}"
@@ -32,6 +29,10 @@
                           <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
                         {{ end }}
                     </li>
+                     <div class="col-sm-5 right">
+                            <h4>{{ .description | safeHTML }}</h4>
+                            <hr>
+                        </div>
                     {{ end }}
                 </ul>
                 <!-- /.owl-carousel -->
