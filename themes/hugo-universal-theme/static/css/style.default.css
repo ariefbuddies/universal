@@ -1202,7 +1202,7 @@ fieldset[disabled] .btn-template-primary.active {
 .home-carousel h3,
 .home-carousel p,
 .home-carousel ul {
-  color: #fff;
+  color: #000;
 }
 .home-carousel h1 {
   font-weight: 700;
@@ -1212,14 +1212,14 @@ fieldset[disabled] .btn-template-primary.active {
 }
 @media (max-width: 991px) {
   .home-carousel h1 {
-    font-size: 36px;
+    font-size: 34px;
   }
 }
 .home-carousel h2 {
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 40px;
-  letter-spacing: 0.08em;
+  font-size: 30px;
+  letter-spacing: 0.07em;
 }
 .home-carousel ul,
 .home-carousel p {
