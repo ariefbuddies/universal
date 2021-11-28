@@ -1171,7 +1171,7 @@ fieldset[disabled] .btn-template-primary.active {
   width: 100%;
   height: 100%;
   background: var(--primary-accent);
-  opacity: 0.9;
+  opacity: 0.5;
   filter: alpha(opacity=90);
 }
 .home-carousel .owl-carousel {
