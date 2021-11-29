@@ -741,7 +741,7 @@ fieldset[disabled] .btn-template-primary.active {
   background-color: #ffffff;
 }
 #intro {
-  background: url('../img/tugu.webp') no-repeat center top;
+  background: url('https://ik.imagekit.io/tr:w-480,h-270/63sq3jibq6s/tugu1.jpg') no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -801,7 +801,7 @@ fieldset[disabled] .btn-template-primary.active {
   padding: 30px;
   margin-bottom: 0;
   position: relative;
-  background: url('../img/tugu.webp') center center repeat;
+  background: url('https://ik.imagekit.io/tr:w-480,h-270/63sq3jibq6s/tugu1.jpg') center center repeat;
   background-size: cover;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
